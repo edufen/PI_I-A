@@ -82,4 +82,8 @@ Na função principal do código, ao ser executado, é apresentada uma tela de i
 * Login como usuário.
 * Login como administrador.
 
-Ao fazer login como usuário, é possível efetuar logout, checar informações ou verificar o status da vacinação. Já ao fazer login como administrador, é
+Ao fazer login como usuário, é possível efetuar logout, checar informações ou verificar o status da vacinação. Já ao fazer login como administrador, é concedido acesso às funcionalidades adicionais de registrar novos pacientes, registrar vacinas, aplicar vacinas e exportar os dados.
+
+Ressalta-se que durante o processo de exportação de dados, são gerados dois arquivos no formato .csv, os quais contêm informações referentes aos pacientes e às vacinas.
+
+**Desenvolvido por Eduardo Batista de Lima, em abril de 2024, como parte do trabalho acadêmico desenvolvido durante o curso de Big Data e Inteligência Artificial na Pontifícia Universidade Católica de Goiás.**
