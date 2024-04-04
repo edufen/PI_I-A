@@ -68,7 +68,9 @@ Para fazer login, informe o CPF e a senha cadastrada para acessar o sistema.
 Uma vez logado no sistema, você pode:
 
 Digitar "1" para fazer logout
+
 Digitar "2" para verificar suas informações, incluindo o status de vacinação caso tenha recebido alguma vacina
+
 Digitar "3" para verificar o status de vacinação, mostrando as vacinas tomadas, doses necessárias e data da próxima dose.
 
 
