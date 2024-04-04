@@ -6,32 +6,42 @@
 O presente trabalho apresenta um sistema de gerenciamento de vacinas, destinado tanto aos pacientes quanto aos administradores. O sistema permite o cadastro de pacientes, fornecendo um cartão de vacinas virtual, além de oferecer funcionalidades como o acompanhamento de doses e agendamento automático de vacinas múltiplas. Para os administradores, há a possibilidade de registrar novas vacinas, aplicá-las aos pacientes e exportar dados para análises.
 
 **2. Funcionalidades para Pacientes**
+
 **2.1 Cadastro de Usuários:**
+
 - Os pacientes podem se cadastrar no sistema fornecendo dados pessoais.
 - É necessário criar uma senha durante o cadastro para posterior login.
 
 **2.2 Acesso ao Cartão de Vacinas Virtual:**
+
 - Após o cadastro, os pacientes têm acesso ao seu cartão de vacinas virtual.
 
 **2.3 Exibição de Informações e Acompanhamento de Vacinas:**
+
 - Os pacientes podem visualizar suas informações pessoais.
 - Os pacientes podem acompanhar as próximas doses de vacinas aplicadas.
 - O sistema agenda automaticamente a próxima dose para 30 dias após a aplicação.
 
 **3. Funcionalidades para Administradores**
+
 **3.1 Acesso Completo:**
+
 - Os administradores possuem acesso a todas as funcionalidades do programa.
 
 **3.2 Registro de Nova Vacina:**
+
 - Capacidade de registrar novas vacinas no sistema.
 
 **3.3 Aplicação de Vacinas:**
+
 - Os administradores podem aplicar vacinas aos pacientes cadastrados, utilizando o CPF como identificação.
 
 **3.4 Exportação de Dados:**
+
 - Possibilidade de exportar dados de pacientes e vacinas para um arquivo “.csv”. Onde os dados exportados podem ser utilizados para análises ou organização interna.
 
 **4. Considerações Finais**
+
 O sistema de gerenciamento de vacinas apresentado oferece uma solução abrangente tanto para pacientes quanto para administradores. Com funcionalidades como o cartão de vacinas virtual, agendamento automático e exportação de dados, visa facilitar o acompanhamento e a administração das vacinas. A flexibilidade do sistema permite adaptações conforme as necessidades específicas de cada contexto de uso.
 
 -----------------------------------------------------------------------
