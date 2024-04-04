@@ -1,89 +1,80 @@
-**Documentação do Cartão de Vacinação**
+**Sistema do Gerenciamento do Cartão de Vacinas:**
+**Funcionalidades para Pacientes e Administradores**
 
-O projeto do Cartão de Vacinação tem como objetivo fornecer uma plataforma para usuários acompanharem seu histórico de vacinação, além de permitir que administradores gerenciem o sistema, registrando pacientes, vacinas e administrando doses. Este projeto é uma iniciativa educacional e acadêmica, desenvolvida exclusivamente como parte de um trabalho acadêmico em uma instituição de ensino superior. Não possui fins lucrativos e não está destinado à comercialização. O objetivo principal é criar uma solução para acompanhamento do histórico de vacinação dos usuários e facilitar a administração do sistema de vacinação para os administradores, com foco no aprendizado e na aplicação prática dos conhecimentos adquiridos durante o curso universitário. 
+**1. Introdução**
+O presente trabalho apresenta um sistema de gerenciamento de vacinas, destinado tanto aos pacientes quanto aos administradores. O sistema permite o cadastro de pacientes, fornecendo um cartão de vacinas virtual, além de oferecer funcionalidades como o acompanhamento de doses e agendamento automático de vacinas múltiplas. Para os administradores, há a possibilidade de registrar novas vacinas, aplicá-las aos pacientes e exportar dados para análises.
 
-**Funcionalidades**
+**2. Funcionalidades para Pacientes**
+**2.1 Cadastro de Usuários:**
+- Os pacientes podem se cadastrar no sistema fornecendo dados pessoais.
+- É necessário criar uma senha durante o cadastro para posterior login.
 
-*Para Usuários Registro e Log-in:*
+**2.2 Acesso ao Cartão de Vacinas Virtual:**
+- Após o cadastro, os pacientes têm acesso ao seu cartão de vacinas virtual.
 
-Os usuários podem se cadastrar fornecendo informações como **nome, CPF, telefone, código SUS e senha**. Após o registro, podem fazer login para acessar as funcionalidades do sistema.
+**2.3 Exibição de Informações e Acompanhamento de Vacinas:**
+- Os pacientes podem visualizar suas informações pessoais.
+- Os pacientes podem acompanhar as próximas doses de vacinas aplicadas.
+- O sistema agenda automaticamente a próxima dose para 30 dias após a aplicação.
 
-*Verificação de Dados:*
+**3. Funcionalidades para Administradores**
+**3.1 Acesso Completo:**
+- Os administradores possuem acesso a todas as funcionalidades do programa.
 
-Os usuários podem checar suas informações cadastradas, exceto a senha. Podem também verificar o status de vacinação para uma vacina específica.
+**3.2 Registro de Nova Vacina:**
+- Capacidade de registrar novas vacinas no sistema.
 
-*Para Administradores Registro de Pacientes:*
+**3.3 Aplicação de Vacinas:**
+- Os administradores podem aplicar vacinas aos pacientes cadastrados, utilizando o CPF como identificação.
 
-Administradores têm a capacidade de registrar novos pacientes no sistema, fornecendo informações pessoais como nome, CPF, data de nascimento, telefone, código SUS e senha.
+**3.4 Exportação de Dados:**
+- Possibilidade de exportar dados de pacientes e vacinas para um arquivo “.csv”. Onde os dados exportados podem ser utilizados para análises ou organização interna.
 
-*Registro de Novas Vacinas no Sistema:*
+**4. Considerações Finais**
+O sistema de gerenciamento de vacinas apresentado oferece uma solução abrangente tanto para pacientes quanto para administradores. Com funcionalidades como o cartão de vacinas virtual, agendamento automático e exportação de dados, visa facilitar o acompanhamento e a administração das vacinas. A flexibilidade do sistema permite adaptações conforme as necessidades específicas de cada contexto de uso.
 
-Podem registrar novas vacinas no sistema, especificando **nome, doses tomadas e doses necessárias**.
+-----------------------------------------------------------------------
 
-*Aplicação de Vacinas:*
+**Tutorial de Uso do Programa:**
 
-Os administradores podem aplicar vacinas a pacientes específicos, informando o CPF do paciente e o identificador da vacina. Após a aplicação bem-sucedida, o sistema exibirá a próxima dose, se aplicável.
+**1. Usuário Comum:**
 
-*Verificação de Dados:*
+Ao inicializar o programa, selecione a opção "1" para realizar o registro.
 
-É possível verificar e/ou modificar dados de paciente no sistema.
+Durante o registro, siga as instruções fornecidas pelo programa, fornecendo as seguintes informações:
 
-*Exportação de Dados:*
+Nome completo;
+CPF;
+Data de nascimento no formato (DD/MM/AAAA);
+Telefone no formato DDD + número com o dígito 9;
+Código de Identificação do Cartão SUS;
+Senha;
 
-Há uma opção para exportar os dados de vacinas e pacientes para arquivos CSV.
+Após o registro, retorne ao menu principal digitando "2" para fazer login ou "0" para sair.
 
-**Utilização do Programa**
+Para fazer login, informe o CPF e a senha cadastrada para acessar o sistema.
 
-Ao executar o código, o usuário terá as seguintes opções:
+Uma vez logado no sistema, você pode:
 
-**Digitar '1' para se registrar.**
+Digitar "1" para fazer logout
+Digitar "2" para verificar suas informações, incluindo o status de vacinação caso tenha recebido alguma vacina
+Digitar "3" para verificar o status de vacinação, mostrando as vacinas tomadas, doses necessárias e data da próxima dose.
 
-Ao se registrar, o usuário precisará fornecer:
 
-**Nome completo; CPF; Data de nascimento; Telefone; Código SUS; Senha;**
+**2. Usuário Administrador:**
 
-Após o registro, fazer login. É necessário informar **CPF e senha.**
+Digite "1" para fazer logout.
 
-Opção para fazer login como administrador. Não é possível cadastrar um usuário como administrador ao usar o programa, os usuários e senhas de admin já estão definidos dentro do código.
+Digite "2" para registrar um novo paciente. É importante observar que não é possível cadastrar um paciente cujo CPF já esteja no sistema, devido à validação do CPF implementada no código.
 
-Opção para sair do programa.
+Digite "3" para registrar uma nova vacina. É necessário fornecer todas as informações solicitadas, incluindo nome, dose, lote, validade, fabricante e identificador.
 
-Após o registro, o usuário pode fazer login, onde terá as seguintes opções:
+Digite "4" para aplicar uma vacina a um paciente cadastrado no sistema. Você pode aplicar a vacina diretamente utilizando o CPF do paciente e o identificador da vacina. Caso a vacina tenha mais de uma dose, o sistema agendará automaticamente a próxima dose para 30 dias após a aplicação da primeira.
 
-**Logout; Checar informações cadastradas; Verificar status de vacinação;**
+Digite "5" para verificar informações de um paciente utilizando o CPF como identificação.
 
-Ao fazer login como Administrador:
+Digite "6" para verificar o status de vacinação de um paciente utilizando o CPF como identificação.
 
-**Logout; Registrar Paciente; Registrar Vacina; Aplicar Vacina; Checar informações do paciente; Verificar status de Vacinação; Exportar Dados; Sair;**
+Digite "7" para exportar dados. Será gerado um arquivo .csv contendo informações dos pacientes e das vacinas cadastradas no sistema.
 
-**Sobre o Código**
-
-Inicialmente, são importadas as bibliotecas necessárias para o funcionamento do código. A biblioteca **'csv'** é empregada para manipulação de arquivos CSV, enquanto a biblioteca **'datetime'** é utilizada para lidar com datas e horas em Python.
-
-Em seguida, são definidas as constantes que representam os identificadores das vacinas presentes no sistema, uma vez que esses valores não serão alterados durante a execução do programa.
-
-Posteriormente, são criadas classes para representar pacientes e vacinas, com o objetivo de estruturar os dados e operações relacionadas a essas entidades. Os dados referentes à utilização do programa são armazenados em dicionários. Ademais, são previamente definidos logins e senhas para administradores no respectivo dicionário.
-
-Desenvolvem-se então as seguintes funções:
-
-* Verificar se o paciente já está cadastrado no sistema.
-* Verificar o status de vacinação.
-* Cadastrar pacientes.
-* Checar informações de um paciente específico.
-* Realizar login como usuário
-* Registrar vacinas.
-* Aplicar vacinas.
-* Realizar login como administrador.
-* Exportar dados.
-
-Na função principal do código, ao ser executado, é apresentada uma tela de interface para:
-
-* Realização do registro de usuários.
-* Login como usuário.
-* Login como administrador.
-
-Ao fazer login como usuário, é possível efetuar logout, checar informações ou verificar o status da vacinação. Já ao fazer login como administrador, é concedido acesso às funcionalidades adicionais de registrar novos pacientes, registrar vacinas, aplicar vacinas e exportar os dados.
-
-Ressalta-se que durante o processo de exportação de dados, são gerados dois arquivos no formato .csv, os quais contêm informações referentes aos pacientes e às vacinas.
-
-**Desenvolvido por Eduardo Batista de Lima, em abril de 2024, como parte do trabalho acadêmico desenvolvido durante o curso de Big Data e Inteligência Artificial na Pontifícia Universidade Católica de Goiás.**
+Observação: Certifique-se de seguir as instruções do programa conforme apresentadas para garantir o correto funcionamento das operações.
