@@ -2,6 +2,7 @@
 **Funcionalidades para Pacientes e Administradores**
 
 **1. Introdução**
+
 O presente trabalho apresenta um sistema de gerenciamento de vacinas, destinado tanto aos pacientes quanto aos administradores. O sistema permite o cadastro de pacientes, fornecendo um cartão de vacinas virtual, além de oferecer funcionalidades como o acompanhamento de doses e agendamento automático de vacinas múltiplas. Para os administradores, há a possibilidade de registrar novas vacinas, aplicá-las aos pacientes e exportar dados para análises.
 
 **2. Funcionalidades para Pacientes**
