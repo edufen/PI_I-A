@@ -1,4 +1,4 @@
-**Apresentação Disponível no LinkedIn https://www.linkedin.com/in/eduardobdlima/**
+**Apresentação: https://youtu.be/ThM9PA3zBmg**
 
 **Sistema do Gerenciamento do Cartão de Vacinas:**
 **Funcionalidades para Pacientes e Administradores**
