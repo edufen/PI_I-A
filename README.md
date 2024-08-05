@@ -81,6 +81,6 @@ O sistema de gerenciamento de vacinas apresentado oferece uma solução abrangen
 ## Assinatura
 
 Desenvolvido por [Eduardo Lima](https://www.linkedin.com/in/eduardobdlima)  
-Curso [Big Data e Inteligência Artificial] - Projeto Integrador [I-A] 
-[PUC Goiás - Pontifícia Universidade Católica de Goiás]  
+Curso [Big Data e Inteligência Artificial](https://www.pucgoias.edu.br/cursos/graduacao/big-data-e-inteligencia-artificial-ead/) - Projeto Integrador I-A   
+[PUC Goiás - Pontifícia Universidade Católica de Goiás](https://www.pucgoias.edu.br/)  
 Abril de 2024
